@@ -1,11 +1,11 @@
-### Newsify
+# **Newsify**
 
 Newsify is a cutting-edge news aggregation platform that leverages advanced AI to provide users with a personalized and efficient news consumption experience.  
 It's designed to help you stay informed without being overwhelmed by the sheer volume of daily news.
 
 --- 
 
-# 🌟 Features
+## 🌟 Features
 - **Personalized News Feed:** Tailored to your interests.
 
 - **Efficient Search:** Find exactly what you're looking for with a powerful, fast, and accurate search.
