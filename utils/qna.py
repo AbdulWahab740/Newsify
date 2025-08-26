@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import os
 import streamlit as st
 load_dotenv()
-GROK_API_KEY = os.getenv("GROK_API_KEY")
+GROK_API_KEY = st.secrets["GROK_API_KEY"]
 
 
 def create_prompt():
