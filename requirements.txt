@@ -91,7 +91,7 @@ langchain-groq==0.3.4
 langchain-huggingface==0.3.0
 langchain-qdrant==0.2.0
 langchain-text-splitters==0.3.8
-langsmith==0.0.87
+langsmith >=0.1.17, <0.2.0
 libclang==18.1.1
 lxml==6.0.0
 lxml_html_clean==0.4.2
@@ -234,6 +234,7 @@ xgboost==3.0.3
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.23.0
+
 
 
 
