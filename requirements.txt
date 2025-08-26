@@ -33,8 +33,10 @@ faiss-cpu
 # NLP / embeddings (local or remote)
 nltk>=3.9.1
 sentence-transformers>=2.7.0
+rank_bm25
 
 # Utilities
 tqdm>=4.67.1
+
 
 
