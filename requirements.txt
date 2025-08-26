@@ -25,11 +25,10 @@ langchain>=0.3.7,<0.4.0
 langchain-community>=0.3.7,<0.4.0
 langchain-groq>=0.3.7,<1.0.0
 langchain-huggingface>=0.3.1,<1.0.0
-langchain-qdrant>=0.2.0,<1.0.0
 langchain-text-splitters>=0.3.9,<1.0.0
 
 # Vector DB client (if you use Qdrant)
-qdrant-client>=1.10.1,<2.0.0
+faiss-cpu
 
 # NLP / embeddings (local or remote)
 nltk>=3.9.1
@@ -37,4 +36,5 @@ sentence-transformers>=2.7.0
 
 # Utilities
 tqdm>=4.67.1
+
 
