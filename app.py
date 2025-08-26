@@ -1,5 +1,5 @@
 import streamlit as st
-from qna import build_chains
+from utils.qna import build_chains
 
 st.title("Tech Ups Ai")
 st.markdown(
