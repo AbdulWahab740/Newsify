@@ -114,7 +114,7 @@ narwhals==1.44.0
 networkx==3.5
 newspaper3k==0.2.8
 nltk==3.9.1
-numpy==2.2.6
+numpy==1.26.4
 oauthlib==3.3.1
 onnxruntime==1.22.0
 opencv-python==4.12.0.88
@@ -234,5 +234,6 @@ xgboost==3.0.3
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.23.0
+
 
 
