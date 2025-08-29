@@ -9,6 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
+from langchain_core.vectorstores.utils import maximal_marginal_relevance
 
 def hybrid_score(bm25_scores, emb_scores, alpha=0.5):
     """
@@ -41,38 +42,6 @@ def hybrid_retreive(documents):
     )
 
     return hybrid_retriever
-
-# def search(query):
-#     results = get_news(query).get("articles", [])
-#     print(results)
-#     if not results:
-#         print("[ERROR] No articles found.")
-#         return
-#     documents = process_articles_for_vectorstore(results)
-#     print(documents)
-#     hybrid = hybrid_retreive(documents)
-#     if not hybrid:
-#         print("[ERROR] No retriever built (no docs available).")
-#         return
-
-#     results = hybrid.invoke(query)
-#         # Vectorize query + titles
-#     vectorizer = TfidfVectorizer()
-#     titles = [result.metadata.get("title", "") for result in results]
-#     tfidf_matrix = vectorizer.fit_transform([query] + titles)
-
-#     # Compute similarity of query (index 0) with each title
-#     cos_sim = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:]).flatten()
-
-#     # Sort results
-#     ranked = sorted(zip(titles, cos_sim), key=lambda x: x[1], reverse=True)
-
-#     for title, score in ranked:
-#         print(f"{title} | Score: {score:.4f}")
-#     # for doc in results:
-#     #     print(f"Title: {doc.metadata.get('title')} | Publisher: {doc.metadata.get('publisher')}")
-
-from langchain_core.vectorstores.utils import maximal_marginal_relevance
 
 def search(query, alpha=0.5, k=10):
     results = get_news(query).get("articles", [])
