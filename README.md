@@ -1,6 +1,6 @@
 # **Newsify** 
 
-### Check out the demo video: [Link](https://drive.google.com/file/d/1h3xFXNuRd6plDiQ-vEMCRcT7HfuG16qK/view?usp=sharing)
+### [Check out the demo video Link](https://drive.google.com/file/d/1h3xFXNuRd6plDiQ-vEMCRcT7HfuG16qK/view?usp=sharing)
 Newsify is a cutting-edge news aggregation platform that leverages advanced AI to provide users with a personalized and efficient news consumption experience.  
 It's designed to help you stay informed without being overwhelmed by the sheer volume of daily news.
 
