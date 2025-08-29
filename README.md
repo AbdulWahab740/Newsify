@@ -43,7 +43,7 @@ Installation
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/newsify.git
+git clone https://github.com/AbdulWahab740/Newsify.git
 cd newsify
 ```
 
