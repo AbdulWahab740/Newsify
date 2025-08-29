@@ -9,8 +9,8 @@ st.markdown(
     The app uses a vector store to retrieve relevant scraped articles and answer your questions.
     """
 )
-st.subheader("Ask a question about any recent news: ")
-question = st.text_input("Enter your question here:")
+st.subheader("Just write one or two word query what you want to know: ")
+question = st.text_input("Enter your query here:")
 if question:
     st.markdown(f"You asked: {question}")
     response = build_chains(question)
