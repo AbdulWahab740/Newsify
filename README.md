@@ -1,5 +1,4 @@
 # **Newsify**
-
 Newsify is a cutting-edge news aggregation platform that leverages advanced AI to provide users with a personalized and efficient news consumption experience.  
 It's designed to help you stay informed without being overwhelmed by the sheer volume of daily news.
 
@@ -14,7 +13,7 @@ It's designed to help you stay informed without being overwhelmed by the sheer v
 
 - **Ad-Free Experience:** Focus on the content, not the clutter.
 
-# 💻 How It Works:
+## 💻 How It Works:
 
 Newsify operates through a series of intelligent steps to deliver a superior news experience.
 
@@ -30,7 +29,7 @@ Newsify operates through a series of intelligent steps to deliver a superior new
 
 - **Deduplication:** The system identifies and removes duplicate or near-duplicate articles from the search results, ensuring you don't see the same story multiple times from different sources.
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 Follow these steps to get a local copy of Newsify up and running.
 
 Prerequisites
